@@ -1,0 +1,50 @@
+body {
+  overflow: hidden;
+  padding-bottom: 10em;
+}
+.glider {
+  display: flex;
+  margin-left: 1em;
+}
+.boton {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: none;
+  background: #b9b9b9;
+}
+#buttonUno {
+  background-color: #f6007c;
+}
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  position: sticky;
+}
+#contenedorTextosCarruselUno {
+  width: 100%;
+}
+#textoShow {
+  width: 300px;
+  overflow-x: hidden;
+  margin-left: 1em;
+}
+.txt {
+  width: 100%;
+}
+
+.glider-contain-dos {
+  width: 330px;
+  overflow: auto;
+  margin-top: 3em;
+}
+.gliderDos {
+  display: flex;
+  width: 300%;
+  overflow-x: hidden;
+}
+.contenedor {
+  width: 330px;
+  padding-bottom: 1em;
+}
